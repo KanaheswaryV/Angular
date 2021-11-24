@@ -1,0 +1,70 @@
+27-10-21
+
+*display:flex;=> It will content response and adjustable according to the different screen width.
+
+****BOOTSRAP NOTES****
+-It is html,css,javascript framework ,It is a open source
+-which is use to design and make your website responsive according to the diffrent screen.
+-It provides inbuild design your website or webapp.
+-Bootsrap 5 is latest version
+
+=>There are two ways to use bootsrap.
+1.CDN link(Content Delivery Network)
+2.By downloading
+
+*Official website for Bootstrap is:www.getbootstrap.com
+
+By using CDN link:
+ We copy the 4 links from bootstrap site.(html,css,seperate(2links from there))
+
+1- .container:It will create one box or container which will takes 15px margine from left and right side of it.
+2- .container-fluid: It will create one box which takes fullwidth of screen.
+
+*bootstrap color classes
+1-text-success	//go normally
+2-text-danger
+3-text-warning
+4-text-primary
+5-text-secondary
+6-txt-info
+7-text-dark
+8-text-white
+
+*background color classes
+*button classes
+*spinner-border and spinner-grow classes
+
+=>semantic elements:it describes some meanings about it(header,nav..)
+=>non semantic elements:(span,div)
+*Table classes
+*Image classes
+
+**grid concept  - It is use to make website contain responsive
+-It has a row .class and .col class
+- In grid row it allow max 12 col only, if its col size exeeds then remaining will display on new line.
+
+->Sytax are we normally used
+
+screen size>= 1200px =>.xl
+screen size>= 992 => .lg
+screen size>= 768 =>.md
+screen size>= 576 => .sm
+screen size < 576 =>
+
+*Card classes(Header,Fooder,Body,Title,Image,Link classes..)
+
+*Bootstrap Form 
+	-form-group
+	-form-control
+*Form validation
+	-was-validated:It will display error if we keep input control blank.
+	-nees-validation:after submitting button it will display error message
+*To display error message for that
+	-valid-feedback: If input field has value then it will execute
+	-Invalid-feedback: If the input field has no value then it will execute.
+
+*How to use carosal
+*How to use model popup
+*How to use nav bar
+*How to use accordian
+*How to bootstrap example
